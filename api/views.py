@@ -11,6 +11,7 @@ from mixins import LoggingMixin
 
 response_data = {}
 response_data['status'] = 'success'
+response_data['text_error'] = ''
 
 
 class TestApiView(LoggingMixin, generics.UpdateAPIView):
